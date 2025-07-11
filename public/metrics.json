@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "name": "Выручка",
+    "current": 500521,
+    "yesterday": 480521,
+    "week": 4805121,
+    "breakdown": [
+      { "id": "cash", "name": "Наличные", "current": 300000, "yesterday": 250000, "week": 1750000 },
+      { "id": "nonCash", "name": "Безналичный расчёт", "current": 125000, "yesterday": 90000,  "week": 630000  },
+      { "id": "cards", "name": "Кредитные карты", "current": 100521, "yesterday": 80000,  "week": 500000  }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Заказы",
+    "current": 320,
+    "yesterday": 300,
+    "week": 2100
+  },
+  {
+    "id": "3",
+    "name": "Новые пользователи",
+    "current": 45,
+    "yesterday": 50,
+    "week": 320
+  }
+]
