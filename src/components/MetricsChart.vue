@@ -53,7 +53,7 @@ const renderChart = () => {
     data: { labels, datasets },
     options: {
       responsive: true,
-      maintainAspectRatio: false, // <-- отключаем сохранение пропорций
+      maintainAspectRatio: false,
       plugins: {
         title: {
           display: true,
@@ -74,13 +74,13 @@ watch(() => [props.breakdown, props.data], renderChart, { deep: true })
 <style scoped lang="scss">
 .chart-container {
   position: relative;
-  width: 100%; // <-- ширина 100%
-  height: 300px; // нужная высота
+  width: 100%;
+  height: 300px;
 }
 
 .chart-container canvas {
-  display: block; // убираем inline-блок поведение
-  width: 100% !important; // принудительно растягиваем
-  height: 100% !important; // чтобы он занял всю высоту контейнера
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
 }
 </style>

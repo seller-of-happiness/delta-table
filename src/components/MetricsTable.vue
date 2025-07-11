@@ -11,7 +11,6 @@
       </thead>
       <tbody>
         <template v-for="m in list" :key="m.id">
-          <!-- Основная строка метрики -->
           <tr :class="{ active: expandedId === m.id }" @click="toggle(m.id)">
             <td>{{ m.name }}</td>
             <td class="bg-current">{{ format(m.current) }}</td>
